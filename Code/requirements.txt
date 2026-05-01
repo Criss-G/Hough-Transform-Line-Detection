@@ -1,0 +1,22 @@
+setuptools>=61.0
+wheel
+numpy>=1.21.0
+opencv-python>=4.5.0
+matplotlib>=3.4.0
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+
+
+Step 1: Select the Correct Interpreter
+Click on the dropdown (where it shows Python 3.14 /usr/local/bin/python3.14)
+Select Python 3.14 (Hough_Transform_Python) ~/Hough_Transform_Python/.venv/bin
+Click OK or Apply
+
+
+Step 2: Install Packages in the Virtual Environment
+# First, activate the virtual environment
+source ~/Hough_Transform_Python/.venv/bin/activate
+
+# Then install all packages
+pip install ...setuptools wheel numpy opencv-python matplotlib pytest pytest-cov
